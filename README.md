@@ -2,6 +2,8 @@
 
 These snippets can be installed as a VS Code plugin to assist you in the development of walkthroughs for Integreatly.
 
+![Extension Example GIF](https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets/blob/master/images/auto-complete.gif?raw=true")
+
 ## Installation
 
 Currently, this plugin *is not* hosted on the VS Code Marketplace. Instead you need to install manually. This is a simple process:
