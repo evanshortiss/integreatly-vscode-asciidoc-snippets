@@ -1,0 +1,36 @@
+{
+  "name": "integreatly-vscode-asciidoc-snippets",
+  "displayName": "Integreatly AsciiDoc Snippets",
+  "description": "AsciiDoc Snippets that facilitate walkthrough development for Integreatly",
+  "version": "0.1.0",
+  "publisher": "evanshortiss",
+  "icon": "images/integreatly-logo.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "asciidoc",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets"
+  },
+  "scripts": {
+    "vsce-package": "vsce package"
+  },
+  "author": "Evan Shortiss <evanshortiss@gmail.com>",
+  "license": "MIT",
+  "bugs": "https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets/issues",
+  "homepage": "https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets#readme",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "devDependencies": {
+    "vsce": "^1.55.0"
+  }
+}

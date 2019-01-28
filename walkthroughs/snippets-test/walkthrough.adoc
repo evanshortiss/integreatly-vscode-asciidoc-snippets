@@ -1,0 +1,27 @@
+= Integreatly Snippets Example
+
+This walkthrough is an example for using the Integreatly snippets extension in VS Code.
+
+We provided these snippets since there's a significant number of variables that get injected into each walkthrough and remembering them is tough.
+
+If you're interested, you can view many of those variables in this file link:https://github.com/integr8ly/tutorial-web-app/blob/master/src/common/docsHelpers.js#L46-L65[here] and link:https://github.com/integr8ly/tutorial-web-app/blob/master/src/common/docsHelpers.js#L21-L28[here].
+
+[time=5]
+== Installation
+
+Follow the steps in this link:https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets[GitHub repository]
+
+[time=5]
+== Value Snippets
+
+We see you're logged in as *{user-username}*. When we create resources for
+you we'll use the sanatised version of your username - *{user-sanitized-username}*.
+
+The values that are italiscised in the above paragrpah are stored in the variables `user-username` and `user-sanitized-username`. If you begin typing the word "user" VS Code will offer these suggestions for auto-completion.
+
+Give it a try!
+
+== URL Snippets
+
+Click link:{fuse-url}[here] to open Fuse Online. This is your OpenShift host URL - {openshift-host}. You can get to link:{api-management-url}[by clicking here].
+
