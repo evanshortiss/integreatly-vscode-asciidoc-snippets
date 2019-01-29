@@ -1,4 +1,7 @@
 {
+  // This is the source file for all auto-complete suggestions. The contents
+  // will be copied to a snippets.json and comments will be stripped as part
+  // of the build process.
   "Project Namespace": {
     "prefix": "integreatly.project-namespace",
     "body": "{project-namespace}",

@@ -21,7 +21,7 @@
     "url": "https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets"
   },
   "scripts": {
-    "copy:snippets": "cp .vscode/integreatly.code-snippets ./snippets.json",
+    "copy:snippets": "strip-json-comments .vscode/integreatly.code-snippets > snippets.json",
     "vsce:package": "vsce package",
     "build": "npm run copy:snippets && npm run vsce:package"
   },
@@ -33,6 +33,7 @@
     "vscode": "^1.28.0"
   },
   "devDependencies": {
+    "strip-json-comments-cli": "^1.0.1",
     "vsce": "^1.55.0"
   }
 }
