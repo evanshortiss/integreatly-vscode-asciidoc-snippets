@@ -2,7 +2,7 @@
   "name": "integreatly-vscode-asciidoc-snippets",
   "displayName": "Integreatly AsciiDoc Snippets",
   "description": "AsciiDoc Snippets that facilitate walkthrough development for Integreatly",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "evanshortiss",
   "icon": "images/integreatly-logo.png",
   "categories": [
@@ -21,7 +21,9 @@
     "url": "https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets"
   },
   "scripts": {
-    "vsce-package": "vsce package"
+    "copy:snippets": "cp .vscode/integreatly.code-snippets ./snippets.json",
+    "vsce:package": "vsce package",
+    "build": "npm run copy:snippets && npm run vsce:package"
   },
   "author": "Evan Shortiss <evanshortiss@gmail.com>",
   "license": "MIT",

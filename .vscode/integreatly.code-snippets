@@ -1,86 +1,86 @@
 {
   "Project Namespace": {
-    "prefix": "project-namespace",
+    "prefix": "integreatly.project-namespace",
     "body": "{project-namespace}",
     "description": "The name of the current walkthrough project namespace."
   },
   "Username": {
-    "prefix": "user-username",
+    "prefix": "integreatly.user-username",
     "body": "{user-username}",
     "description": "The username of the currently logged in user."
   },
   "Username (Sanatised)": {
-    "prefix": "user-sanitized-username",
+    "prefix": "integreatly.user-sanitized-username",
     "body": "{user-sanitized-username}",
     "description": "The username of the currently logged in user, but all special characters are replaced with hyphens."
   },
   "OpenShift Master URL": {
-    "prefix": "openshift-host",
+    "prefix": "integreatly.openshift-host",
     "body": "{openshift-host}",
     "description": "OpenShift Master Console URL."
   },
   "Launcher URL": {
-    "prefix": "launcher-url",
+    "prefix": "integreatly.launcher-url",
     "body": "{launcher-url}",
     "description": "Shared Launcher service URL."
   },
   "Che URL": {
-    "prefix": "che-url",
+    "prefix": "integreatly.che-url",
     "body": "{che-url}",
     "description": "Shared Che service URL."
   },
   "Fuse Online URL": {
-    "prefix": "fuse-url",
+    "prefix": "integreatly.fuse-url",
     "body": "{fuse-url}",
     "description": "Fuse Online URL for the currently logged in user."
   },
   "3scale": {
-    "prefix": "3scale",
+    "prefix": "integreatly.3scale",
     "body": "{api-management-url}",
     "description": "Shared 3scale service URL."
   },
   "AMQ Online": {
-    "prefix": "enmasse",
+    "prefix": "integreatly.enmasse",
     "body": "{enmasse-url}",
     "description": "AMQ Online URL for the currently logged in user."
   },
   "AMQ Online Broker": {
-    "prefix": "enmasse-broker",
+    "prefix": "integreatly.enmasse-broker",
     "body": "{enmasse-broker-url}",
     "description": "AMQ Online Broker URL for the currently logged in user."
   },
   "AMQ Online Credentials - Username": {
-    "prefix": "enmasse-credentials-username",
+    "prefix": "integreatly.enmasse-credentials-username",
     "body": "{enmasse-credentials-username}",
     "description": "AMQ Online username for the currently logged in user."
   },
   "AMQ Online Credentials - Password": {
-    "prefix": "enmasse-credentials-password",
+    "prefix": "integreatly.enmasse-credentials-password",
     "body": "{enmasse-credentials-password}",
     "description": "AMQ Online password for the currently logged in user."
   },
   "AMQ Broker TCP URL": {
-    "prefix": "amq-broker-tcp-url",
+    "prefix": "integreatly.amq-broker-tcp-url",
     "body": "{amq-broker-tcp-url}",
     "description": "AMQ Broker TCP URL for the currently logged in user."
   },
   "AMQ Broker AMQP URL": {
-    "prefix": "amq-broker-amqp-url",
+    "prefix": "integreatly.amq-broker-amqp-url",
     "body": "{amq-broker-amqp-url}",
     "description": "AMQ Broker AMQP URL for the currently logged in user."
   },
   "AMQ Credentials - Username": {
-    "prefix": "amq-credentials-username",
+    "prefix": "integreatly.amq-credentials-username",
     "body": "{amq-credentials-username}",
     "description": "AMQ username for the currently logged in user."
   },
   "AMQ Credentials - Password": {
-    "prefix": "amq-credentials-password",
+    "prefix": "integreatly.amq-credentials-password",
     "body": "{amq-credentials-password}",
     "description": "AMQ password for the currently logged in user."
   },
   "Apicurio URL": {
-    "prefix": "apicurio-url",
+    "prefix": "integreatly.apicurio-url",
     "body": "{apicurio-url}",
     "description": "Fuse Online URL for the currently logged in user."
   }

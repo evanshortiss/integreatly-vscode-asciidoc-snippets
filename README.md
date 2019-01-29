@@ -2,7 +2,13 @@
 
 These snippets can be installed as a VS Code plugin to assist you in the development of walkthroughs for Integreatly.
 
-![Extension Example GIF](https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets/blob/master/images/auto-complete.gif?raw=true")
+## Usage
+
+Simply start typing "integreatly" and a dropdown of variables should appear. If you know the name of the variable you need you can begin typing that instead and it will appear.
+
+<div align="center">
+  <img alt="Extension Example GIF" src="https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets/blob/master/images/auto-complete.gif?raw=true"/>
+</div>
 
 ## Installation
 
@@ -14,6 +20,6 @@ Currently, this plugin *is not* hosted on the VS Code Marketplace. Instead you n
 
 ## Contributing
 
-If you'd like to make a PR to these fork the repository, add your changes to the `snippets.json` file, and make a Pull Request.
+If you'd like to make a PR to these fork the repository, add your changes to the `.vscode/integreatly.code-snippets` file, and make a Pull Request.
 
-To test your changes simply copy the `snippets.json` content into the `.vscode/integrealty.code-snippets` file, then use the `walkthroughs/snippets-test/walkthrough.adoc` file to verify they are working as expected.
+To verify your changes simply use the `walkthroughs/snippets-test/walkthrough.adoc` to try them out.

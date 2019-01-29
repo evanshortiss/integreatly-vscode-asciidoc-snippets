@@ -3,3 +3,6 @@
 *.vsix
 package-lock.json
 node_modules
+
+# ignore snippets since we generate it
+snippets.json
