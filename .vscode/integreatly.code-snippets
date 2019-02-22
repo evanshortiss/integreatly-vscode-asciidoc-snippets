@@ -22,6 +22,11 @@
     "body": "{openshift-host}",
     "description": "OpenShift Master Console URL."
   },
+  "OpenShift Apps URL": {
+    "prefix": "integreatly.openshift-app-host",
+    "body": "{openshift-app-host}",
+    "description": "OpenShift route hostname/suffix. Can be used to create URLs like so \"https://my-service.{openshift-app-host}\""
+  },
   "Launcher URL": {
     "prefix": "integreatly.launcher-url",
     "body": "{launcher-url}",
