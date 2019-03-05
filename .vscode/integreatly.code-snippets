@@ -7,6 +7,11 @@
     "body": "{project-namespace}",
     "description": "The name of the current walkthrough project namespace."
   },
+  "Walkthrough Namespace": {
+    "prefix": "integreatly.walkthrough-namespace",
+    "body": "{walkthrough-namespace}",
+    "description": "The name of the current walkthrough namespace."
+  },
   "Username": {
     "prefix": "integreatly.user-username",
     "body": "{user-username}",
