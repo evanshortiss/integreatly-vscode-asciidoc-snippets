@@ -1,5 +1,7 @@
 # Integreatly VS Code AsciiDoc Snippets
 
+[![Build Status](https://dev.azure.com/evanshortiss/integreatly-vscode-asciidoc-snippets/_apis/build/status/evanshortiss.integreatly-vscode-asciidoc-snippets?branchName=master)](https://dev.azure.com/evanshortiss/integreatly-vscode-asciidoc-snippets/_build/latest?definitionId=1&branchName=master)
+
 These snippets can be installed as a VS Code plugin to assist your development of walkthroughs for Integreatly clusters.
 
 ## Usage
