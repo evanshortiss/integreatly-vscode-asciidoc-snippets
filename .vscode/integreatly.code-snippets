@@ -20,7 +20,7 @@
   "Username (Sanatised)": {
     "prefix": "integreatly.user-sanitized-username",
     "body": "{user-sanitized-username}",
-    "description": "The username of the currently logged in user, but all special characters are replaced with hyphens."
+    "description": "The username of the currently logged in user, but spaces & special characters are replaced with hyphens."
   },
   "OpenShift Master URL": {
     "prefix": "integreatly.openshift-host",
@@ -30,7 +30,12 @@
   "OpenShift Apps URL": {
     "prefix": "integreatly.openshift-app-host",
     "body": "{openshift-app-host}",
-    "description": "OpenShift route hostname/suffix. Can be used to create URLs like so \"https://my-service.{openshift-app-host}\""
+    "description": "OpenShift route hostname/suffix, i.e \"apps.<cluster>.com\". Can be used to create URLs like so \"https://my-service.{openshift-app-host}\""
+  },
+  "OpenShift Walkthrough Route Template": {
+    "prefix": "integreatly.walkthrough-route-template",
+    "body": "{route-<route-name>-host}",
+    "description": "Variable with a placeholder for routes that are created in the walkthrough namespace. For example, an OpenShift Route named test with the URL \"test.mycluster.com\" and TLS configured will result in a variable named \"route-test-host\" with the value \"https://test.mycluster.com\""
   },
   "Launcher URL": {
     "prefix": "integreatly.launcher-url",
@@ -60,41 +65,26 @@
   "AMQ Online Broker": {
     "prefix": "integreatly.enmasse-broker",
     "body": "{enmasse-broker-url}",
-    "description": "AMQ Online Broker URL for the currently logged in user."
+    "description": "AMQ Online AMQP Broker URL for the currently logged in user."
   },
   "AMQ Online Credentials - Username": {
     "prefix": "integreatly.enmasse-credentials-username",
     "body": "{enmasse-credentials-username}",
-    "description": "AMQ Online username for the currently logged in user."
+    "description": "AMQ Online broker username for the currently logged in user."
   },
   "AMQ Online Credentials - Password": {
     "prefix": "integreatly.enmasse-credentials-password",
     "body": "{enmasse-credentials-password}",
-    "description": "AMQ Online password for the currently logged in user."
-  },
-  "AMQ Broker TCP URL": {
-    "prefix": "integreatly.amq-broker-tcp-url",
-    "body": "{amq-broker-tcp-url}",
-    "description": "AMQ Broker TCP URL for the currently logged in user."
-  },
-  "AMQ Broker AMQP URL": {
-    "prefix": "integreatly.amq-broker-amqp-url",
-    "body": "{amq-broker-amqp-url}",
-    "description": "AMQ Broker AMQP URL for the currently logged in user."
-  },
-  "AMQ Credentials - Username": {
-    "prefix": "integreatly.amq-credentials-username",
-    "body": "{amq-credentials-username}",
-    "description": "AMQ username for the currently logged in user."
-  },
-  "AMQ Credentials - Password": {
-    "prefix": "integreatly.amq-credentials-password",
-    "body": "{amq-credentials-password}",
-    "description": "AMQ password for the currently logged in user."
+    "description": "AMQ Online broker password for the currently logged in user."
   },
   "Apicurio URL": {
     "prefix": "integreatly.apicurio-url",
     "body": "{apicurio-url}",
-    "description": "Fuse Online URL for the currently logged in user."
-  }
+    "description": "The API Designer console URL."
+  },
+  "User SSO URL": {
+    "prefix": "integreatly.user-sso-url",
+    "body": "{user-sso-url}",
+    "description": "The user-level SSO console URL."
+  },
 }

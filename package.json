@@ -1,8 +1,8 @@
 {
   "name": "integreatly-vscode-asciidoc-snippets",
   "displayName": "Integreatly AsciiDoc Snippets",
-  "description": "AsciiDoc Snippets that facilitate walkthrough development for Integreatly",
-  "version": "0.4.0",
+  "description": "AsciiDoc Snippets that facilitate Solution Pattern development for Integreatly",
+  "version": "0.5.0",
   "publisher": "evanshortiss",
   "icon": "images/integreatly-logo.png",
   "categories": [
@@ -35,5 +35,6 @@
   "devDependencies": {
     "strip-json-comments-cli": "^1.0.1",
     "vsce": "^1.55.0"
-  }
+  },
+  "dependencies": {}
 }
