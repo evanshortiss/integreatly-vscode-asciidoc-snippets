@@ -86,5 +86,5 @@
     "prefix": "integreatly.user-sso-url",
     "body": "{user-sso-url}",
     "description": "The user-level SSO console URL."
-  },
+  }
 }
