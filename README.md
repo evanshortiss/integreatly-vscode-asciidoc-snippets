@@ -21,6 +21,17 @@ Alternatively you can install the plugin manually like so:
 2. Use the `code` command to install the extenstion from the file, e.g
 `code ~/Downloads/integreatly-vscode-asciidoc-snippets-0.5.0.vsix`
 
+## Release Process
+
+Scripts to manage releases are in the *package.json*. Increment the version
+in the `package.version` field and run:
+
+```
+export VSCE_PAT=the-personal-access-token
+npm run vsce:package
+npm run vsce:publish
+```
+
 ## Contributing
 
 If you'd like to make a PR, fork the repository, add your changes to the `.vscode/integreatly.code-snippets` file, and make a Pull Request.
