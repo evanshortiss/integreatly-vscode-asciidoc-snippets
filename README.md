@@ -12,11 +12,14 @@ Simply start typing "integreatly" and a dropdown of variables should appear in y
 
 ## Installation
 
-Currently, this plugin *is not* hosted on the VS Code Marketplace. Instead you need to install it manually. This is a simple process:
+You can install from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=evanshortiss.integreatly-vscode-asciidoc-snippets),
+or directly from VS Code using the Extensions view.
+
+Alternatively you can install the plugin manually like so:
 
 1. Download a release `.vsix` file from the Releases page of this repository.
-2. Follow the instructions [here](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix).
-3. Profit?
+2. Use the `code` command to install the extenstion from the file, e.g
+`code ~/Downloads/integreatly-vscode-asciidoc-snippets-0.5.0.vsix`
 
 ## Contributing
 

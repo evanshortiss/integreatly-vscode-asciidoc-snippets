@@ -2,7 +2,7 @@
   "name": "integreatly-vscode-asciidoc-snippets",
   "displayName": "Integreatly AsciiDoc Snippets",
   "description": "AsciiDoc Snippets that facilitate Solution Pattern development for Integreatly",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "publisher": "evanshortiss",
   "icon": "images/integreatly-logo.png",
   "categories": [

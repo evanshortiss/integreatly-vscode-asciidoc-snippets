@@ -1,5 +1,8 @@
 Dates below are in DD/MM/YY format.
 
+## 0.5.1 (02/09/19)
+* Update installation guide/instructions
+
 ## 0.5.0 (02/09/19)
 * Removed outdated and unavailable AMQ variables
 * Added walkthrough namespace route template URL
