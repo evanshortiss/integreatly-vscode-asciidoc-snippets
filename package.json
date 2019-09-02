@@ -2,7 +2,7 @@
   "name": "integreatly-vscode-asciidoc-snippets",
   "displayName": "Integreatly AsciiDoc Snippets",
   "description": "AsciiDoc Snippets that facilitate Solution Pattern development for Integreatly",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "publisher": "evanshortiss",
   "icon": "images/integreatly-logo.png",
   "categories": [
@@ -21,9 +21,11 @@
     "url": "https://github.com/evanshortiss/integreatly-vscode-walkthrough-snippets"
   },
   "scripts": {
+    "build": "npm run copy:snippets && npm run vsce:package",
     "copy:snippets": "strip-json-comments .vscode/integreatly.code-snippets > snippets.json",
+    "test": "npm run copy:snippets && mocha test/*.js",
     "vsce:package": "vsce package",
-    "build": "npm run copy:snippets && npm run vsce:package"
+    "vsce:publish": "if [ -n \"$VSCE_PAT\" ]; then vsce publish --pat $VSCE_PAT --packagePath \"./integreatly-vscode-asciidoc-snippets-${npm_package_version}.vsix\"; else echo \"Please set VSCE_PAT variable to a valid VS Marketplace PAT\"; fi"
   },
   "author": "Evan Shortiss <evanshortiss@gmail.com>",
   "license": "MIT",
@@ -33,8 +35,9 @@
     "vscode": "^1.28.0"
   },
   "devDependencies": {
+    "mocha": "~6.2.0",
     "strip-json-comments-cli": "^1.0.1",
-    "vsce": "^1.55.0"
+    "vsce": "~1.66.0"
   },
   "dependencies": {}
 }

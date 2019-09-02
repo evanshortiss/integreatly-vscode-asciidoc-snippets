@@ -1,5 +1,7 @@
 # Integreatly VS Code AsciiDoc Snippets
 
+[![Build Status](https://dev.azure.com/evanshortiss/integreatly-vscode-asciidoc-snippets/_apis/build/status/evanshortiss.integreatly-vscode-asciidoc-snippets?branchName=master)](https://dev.azure.com/evanshortiss/integreatly-vscode-asciidoc-snippets/_build/latest?definitionId=1&branchName=master)
+
 These snippets can be installed as a VS Code plugin to assist your development of walkthroughs for Integreatly clusters.
 
 ## Usage
@@ -20,6 +22,17 @@ Alternatively you can install the plugin manually like so:
 1. Download a release `.vsix` file from the Releases page of this repository.
 2. Use the `code` command to install the extenstion from the file, e.g
 `code ~/Downloads/integreatly-vscode-asciidoc-snippets-0.5.0.vsix`
+
+## Release Process
+
+Scripts to manage releases are in the *package.json*. Increment the version
+in the `package.version` field and run:
+
+```
+export VSCE_PAT=the-personal-access-token
+npm run vsce:package
+npm run vsce:publish
+```
 
 ## Contributing
 
