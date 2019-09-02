@@ -1,5 +1,10 @@
 Dates below are in DD/MM/YY format.
 
+## 0.5.2 (02/09/19)
+* Fix to remove trailing comma in *snippet.json*
+* Add tests to prevent malformed JSON in the future
+* Add release instructions
+
 ## 0.5.1 (02/09/19)
 * Update installation guide/instructions
 
